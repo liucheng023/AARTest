@@ -4,6 +4,6 @@
   <groupId>com.qingloud.vod.module</groupId>
   <artifactId>beta</artifactId>
   <version>1.0</version>
-  <!-- <packaging>aar</packaging> -->
+  <packaging>aar</packaging>
   <dependencies/>
 </project>
