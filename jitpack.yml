@@ -1,3 +1,7 @@
 install: 
-FILE="-Dfile=beta-1.0.aar" 
-mvn install:install-file $FILE -DgroupId=com.qingloud.vod.module -DartifactId=beta -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
+ - FILE="-Dfile=beta.aar" 
+ - mvn install:install-file $FILE  -Dpackaging=aar -DpomFile=pom.xml -DgeneratePom=false
+
+install: 
+  - FILE="-Dfile=livekit-abc5727e537.aar" 
+  - mvn install:install-file $FILE -Dpackaging=aar -DpomFile=pom-default.xml -DgeneratePom=false
